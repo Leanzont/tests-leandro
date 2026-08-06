@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: ubuntu-latest
+        uses: actions/checkout@v4
 
         run: echo "Hi, this is a test"
 
