@@ -1,0 +1,19 @@
+name: CI Test
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-push:
+    name: test CI with this file
+    runs-on: ubutu-latest
+
+    steps:
+      - name: Checkout
+        uses: ubuntu-latest
+
+        run: echo "Hi, this is a test"
+
+
+
